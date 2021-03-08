@@ -4,16 +4,17 @@
 	Gathering and analyzing data from the outcome of theater plays based on their launch date and their over funding goal.
 ### Purpose
 	The purpose of this project was to find information for client on how different kickstarter campaigns had fared in relation to their launch dates and their funding goals. The client had their play's fundraising goal nearly acheived in a short amout of time so, she wants to know about other compaigns outcomes by using the goal and launch date criteria.
+	
 ## Analysis and Challenges
 	To anlayze the data from theater outcomes by launch date we created a pivot table that filters by the Parent Category of the Kickstarter campaigns and by the year they occured. Columns are divided by the outcomes, Rows are divided by the Month the Kickstarter began, and the values in the table are counting the number of outcomes for each criteria. 
 
-	(insert table)
+	![Theater_Outcomes_by_Launch_Date_Table](https://user-images.githubusercontent.com/78178900/110382958-41bb4480-8021-11eb-93c1-6458979b855e.png)
 
 	With this table we can see the total number of successful, failed, and canceled outcomes from each kickstarter that was in the Theater category. We can also see the total number by each month for each outcome to see which month is the best and which is the worst for starting a campaign. May has the most successful campaigns and December has the least, May also has the most failed campaigns and November has the least. We used the data from the table to create a chart to easily look at the change in trends. The chart is located below under *Analysis of Outcomes Based on Launch Date*
 
 	To analyze the data from theater outcomes by goals we created a table that shows the number of successful, failed, and canceled campaigns (labeled Total Projects instead of campaigns) based on the amount that the campaign had set a goal for. 
 
-	(insert table)
+	![Outcomes_Based_on_Goals_Table](https://user-images.githubusercontent.com/78178900/110382978-497ae900-8021-11eb-92b8-c5ae97fef4f6.png)
 
 	We split the goals into separate ranges so we can look closer at the success rate based on the dollar amount set as a goal. We then calculated the successful, failed, and canceled rate by percentage. The highest rate of success based on percentage for any of the ranges is 76%. We then used the data from the table to create a line chart so we can easily see the change in trends for this data set. The line chart is located below under *Analysis of Outcomes Based on Goals*
 
@@ -22,15 +23,16 @@
 	Another challenge was that the data from the Theater Outcomes by Launch Date was not filtered by the subcategory for "plays" and the Outcomes Based on Goal data were filtered by that subcategory. This makes it challenging to see the true relation between the two data sets.
 
 ### Analysis of Outcomes Based on Launch Date
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/78178900/110383090-6f07f280-8021-11eb-9c12-ff741941c1ae.png)
+
 	Based on the analysis of launch dates there is a clear trend of May being the month with the highest rate of success. It is also the highest month for failures; on the other hand, it also has the largest difference between number of failed and number of successful campaigns with 111 successful and 52 failed. The months May, June, and July have the highest success rates which could be used as a good indication that these months are the best to choose when launching a kickstarter campaign.
 
 ### Analysis of Outcomes Based on Goals
-	(insert chart)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/78178900/110383004-54ce1480-8021-11eb-8e5b-97257ceac8ae.png)
 
 	Based on the analysis of funding goals you can see that the range with the highest percentage of success is a funding goal that is less than $1,000 with a success rate of 76%. The range with the second highest percentage rate of success is a funding range between $1,000 to $4,999 with a success rate of 73%. When looking at the percentages it is clear which has a higher rate of success however I believe it is noteworthy to point out that the total number of campaigns that had a funding goal of less than $1,000 is 186. The total number of campaigns with a funding goal between $1,000 to $4,999 is 534. It would appear that choosing less than a $1,000 for a goal would achieve the most success but since it has a much smaller data set it may be that between $1,000 to $4,999 is the best range to choose. Nonetheless, according to the data as long as your funding goal is less than $5,000 then you will maximize your probability of achieving your campaign funding goal.
 
 ### Challenges and Difficulties Encountered
-	(insert chart)
 
 	Challenges that were encountered were the lack of constistency in the number of data points among the different criteria. Percentages can be very deceiving because if you have one row of your data set with a large total amount of data points and another row with a very low number of data points you may end up with similar percentages or largley differing percentages which, can give false represntations of potential outcomes. For example, the funding goal range of $45,000 to $49,999 has a failure rate of %100 and the range of $40,000 to $44,999 has a failure rate of %33 but both ranges have a total number of 1 failed campaign. This can be highly misleading and become a challenge when using the data to influence effective decision making.
 
