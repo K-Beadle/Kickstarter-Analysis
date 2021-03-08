@@ -59,8 +59,8 @@
 
 - What are some other possible tables and/or graphs that we could create?
 	
-	1. We could create a table that shows the Outcome Based on Launch Date with the subcategory filter set to "plays" and then we could use that table to creat another pivot chart similar to the one with the parent category filter in place.
+	- We could create a table that shows the Outcome Based on Launch Date with the subcategory filter set to "plays" and then we could use that table to creat another pivot chart similar to the one with the parent category filter in place.
 
-	2. We can also add the Country filter to both the table and chart so that we can filter by country to see the outcomes based on launch date for campaigns in the US. 
+	- We can also add the Country filter to both the table and chart so that we can filter by country to see the outcomes based on launch date for campaigns in the US. 
 
-	3. Another chart and table can be made to see the amount of successful, failed, and canceled campaigns based on Launch Date and of a specific Funding Goal range in the US by each year and month. This could allow us to see any positive change in trends that could give indications of growing or declining popularity in certain parent and subcatgories and can give us a deeper look for analysis.
+	- Another chart and table can be made to see the amount of successful, failed, and canceled campaigns based on Launch Date and of a specific Funding Goal range in the US by each year and month. This could allow us to see any positive change in trends that could give indications of growing or declining popularity in certain parent and subcatgories and can give us a deeper look for analysis.
