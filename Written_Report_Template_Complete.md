@@ -56,6 +56,7 @@
 	A limitation in the Kickstarter sheet is that we can only see the average amount of each backer. If we could see how much each individual donation was for each individual campaign then we could find if there are any outliers that are skewing the average donation. This could also give us a better look into how many backers are outliers for each campaign and which campaigns would have failed if they did not include those outlier backers. Removing the outliers could affect the success/failure rate and reveal different conclusions. In addition, we could calulate the probability of there being an outlier backer in your campaign which can manipulate how we interpret the data. 
 
 - What are some other possible tables and/or graphs that we could create?
+	
 	-We could create a table that shows the Outcome Based on Launch Date with the subcategory filter set to "plays" and then we could use that table to creat another pivot chart similar to the one with the parent category filter in place.
 
 	-We can also add the Country filter to both the table and chart so that we can filter by country to see the outcomes based on launch date for campaigns in the US. 
