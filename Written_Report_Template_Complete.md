@@ -41,24 +41,26 @@
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-	Two conclustions that you can draw are that May is the best month to launch your kickstarter campaign for plays, and that December is the worst month to start it. This is because May has the highest amount of successful campaigns. December has the least amount of successful campaigns which, are almost equal to the amount of its failed campaigns.
+	
+  - Two conclustions that you can draw are that May is the best month to launch your kickstarter campaign for plays, and that December is the worst month to start it. This is because May has the highest amount of successful campaigns. December has the least amount of successful campaigns which, are almost equal to the amount of its failed campaigns.
 
 - What can you conclude about the Outcomes based on Goals?
-	We can conclude that having a total funding goal that is less than $5,000 will maximize your probability of achieving your goal. This is because the two funding ranges below $5,000 have the two highest success rates. We can also conclude that we need more data points in the ranges that are above $15,000 to make a solid conclusion of the outcomes and how they fare. 
+
+  - We can conclude that having a total funding goal that is less than $5,000 will maximize your probability of achieving your goal. This is because the two funding ranges below $5,000 have the two highest success rates. We can also conclude that we need more data points in the ranges that are above $15,000 to make a solid conclusion of the outcomes and how they fare. 
 
 - What are some limitations of this dataset?
-	Some of the limitations include the following:
-	We don't see the outcomes based on goals and the months that they were launched. 
-	We don't see the country that these campaigns were created in.
-	The data set for outcomes based on launch date are only filtered by parent category and not the subcategory for plays.
 
+  - Some of the limitations include the following:
+	1. We don't see the outcomes based on goals and the months that they were launched. 
+	2. We don't see the country that these campaigns were created in.
+	3. The data set for outcomes based on launch date are only filtered by parent category and not the subcategory for plays.
 
-	A limitation in the Kickstarter sheet is that we can only see the average amount of each backer. If we could see how much each individual donation was for each individual campaign then we could find if there are any outliers that are skewing the average donation. This could also give us a better look into how many backers are outliers for each campaign and which campaigns would have failed if they did not include those outlier backers. Removing the outliers could affect the success/failure rate and reveal different conclusions. In addition, we could calulate the probability of there being an outlier backer in your campaign which can manipulate how we interpret the data. 
+  - A limitation in the Kickstarter sheet is that we can only see the average amount of each backer. If we could see how much each individual donation was for each individual campaign then we could find if there are any outliers that are skewing the average donation. This could also give us a better look into how many backers are outliers for each campaign and which campaigns would have failed if they did not include those outlier backers. Removing the outliers could affect the success/failure rate and reveal different conclusions. In addition, we could calulate the probability of there being an outlier backer in your campaign which can manipulate how we interpret the data. 
 
 - What are some other possible tables and/or graphs that we could create?
 	
-	-We could create a table that shows the Outcome Based on Launch Date with the subcategory filter set to "plays" and then we could use that table to creat another pivot chart similar to the one with the parent category filter in place.
+	1. We could create a table that shows the Outcome Based on Launch Date with the subcategory filter set to "plays" and then we could use that table to creat another pivot chart similar to the one with the parent category filter in place.
 
-	-We can also add the Country filter to both the table and chart so that we can filter by country to see the outcomes based on launch date for campaigns in the US. 
+	2. We can also add the Country filter to both the table and chart so that we can filter by country to see the outcomes based on launch date for campaigns in the US. 
 
-	-Another chart and table can be made to see the amount of successful, failed, and canceled campaigns based on Launch Date and of a specific Funding Goal range in the US by each year and month. This could allow us to see any positive change in trends that could give indications of growing or declining popularity in certain parent and subcatgories and can give us a deeper look for analysis.
+	3. Another chart and table can be made to see the amount of successful, failed, and canceled campaigns based on Launch Date and of a specific Funding Goal range in the US by each year and month. This could allow us to see any positive change in trends that could give indications of growing or declining popularity in certain parent and subcatgories and can give us a deeper look for analysis.
