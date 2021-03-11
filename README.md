@@ -8,13 +8,13 @@
 ## Analysis and Challenges
 	To analyze the data from theater outcomes by launch date we created a pivot table that filters by the Parent Category of the Kickstarter campaigns and by the year they occurred. Columns are divided by the outcomes, Rows are divided by the Month the Kickstarter began, and the values in the table are counting the number of outcomes for each criteria.  
 
-	![Theater_Outcomes_by_Launch_Date_Table](https://user-images.githubusercontent.com/78178900/110382958-41bb4480-8021-11eb-93c1-6458979b855e.png)
+![Theater_Outcomes_by_Launch_Date_Table](https://user-images.githubusercontent.com/78178900/110382958-41bb4480-8021-11eb-93c1-6458979b855e.png)
 
 	With this table we can see the total number of successful, failed, and canceled outcomes from each Kickstarter that was in the Theater category. We can also see the total number by each month for each outcome to see which month is the best and which is the worst for starting a campaign. May has the most successful campaigns and December has the least, May also has the most failed campaigns and November has the least. We used the data from the table to create a chart to easily look at the change in trends. The chart is located below under *Analysis of Outcomes Based on Launch Date*
 
 	To analyze the data from theater outcomes by goals we created a table that shows the number of successful, failed, and canceled campaigns (labeled Total Projects instead of campaigns) based on the amount that the campaign had set a goal for. 
 
-	![Outcomes_Based_on_Goals_Table](https://user-images.githubusercontent.com/78178900/110382978-497ae900-8021-11eb-92b8-c5ae97fef4f6.png)
+![Outcomes_Based_on_Goals_Table](https://user-images.githubusercontent.com/78178900/110382978-497ae900-8021-11eb-92b8-c5ae97fef4f6.png)
 
 	We split the goals into separate ranges so we can look closer at the success rate based on the dollar amount set as a goal. We then calculated the successful, failed, and canceled rate by percentage. The highest rate of success based on percentage for any of the ranges is 76%. We then used the data from the table to create a line chart so we can easily see the change in trends for this data set. The line chart is located below under *Analysis of Outcomes Based on Goals*
 
